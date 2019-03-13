@@ -62,6 +62,7 @@ To allow your Apache server to process PHP files, you'll need to install the lat
 
 ```bash
 sudo apt-get install php libapache2-mod-php -y
+(or sudo apt-get install libapache2-mod-php5 -y)
 ```
 
 Now remove the `index.html` file:
